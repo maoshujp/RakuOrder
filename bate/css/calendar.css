@@ -1,0 +1,111 @@
+/ *初始化* /
+* {
+	保证金： 0 ;
+	填充： 0 ;
+	-webkit-user-select： none ;
+}
+身体 {
+	颜色：＃666666 ;
+	font-size： 14 px ;
+	font-family： “微软雅黑” ;
+	background-color： #fff ;
+	身高： 100 ％ ;
+	overflow-y： scroll ;
+}
+一个 {
+	文字装饰：无 ;
+	大纲：无 ;
+}
+img {
+	边界：无 ;
+}
+ul {
+	list-style： none ;
+}
+.clearfix ：after {
+	内容： “ ” ;
+	显示：块 ;
+	身高： 0 ;
+	清楚：两者 ;
+	溢出：隐藏 ;
+}
+.clearfix {
+	放大： 1 ;
+}
+/ *日历* /
+.calendar-container {
+	宽度： 100 ％ ;
+	边距： 10 像素  0 像素 ;
+}
+.calendar-title {
+	宽度： 100 ％ ;
+	身高： 45 像素 ;
+	颜色： #fff ;
+	背景颜色：＃09F ;
+}
+.calendar-month {
+	float： left ;
+	宽度： 20 ％ ;
+	身高： 45 像素 ;
+	text-align： center ;
+	cursor： pointer ;
+	行高： 45 像素 ;
+}
+.calendar-year {
+	float： left ;
+	宽度： 20 ％ ;
+	身高： 45 像素 ;
+	text-align： center ;
+	cursor： pointer ;
+	行高： 45 像素 ;
+}
+.calendar-prevyear，
+.calendar-prevmonth，
+.calendar-nextyear，
+.calendar-nextmonth {
+	float： left ;
+	宽度： 15 ％ ;
+	身高： 45 像素 ;
+	text-align： center ;
+	cursor： pointer ;
+	行高： 45 像素 ;
+}
+.calendar-week {
+	宽度： 100 ％ ;
+	身高： 45 像素 ;
+}
+.calendar-week  div {
+	float： left ;
+	宽度： 14.28 ％ ;
+	身高： 45 像素 ;
+	颜色：＃313131 ;
+	背景颜色：＃d7edff ;
+	text-align： center ;
+	行高： 45 像素 ;
+	cursor： pointer ;
+}
+.calendar-content {
+	宽度： 100 ％ ;
+	背景颜色：＃f2f5f9 ;
+}
+.calendar-content  div {
+	float： left ;
+	宽度： 14.28 ％ ;
+	身高： 40 像素 ;
+	线高： 40 像素 ;
+	填充： 5 像素  0 像素 ;
+	背景颜色：＃f2f5f9 ;
+	颜色：＃333 ;
+	text-align： center ;
+	cursor： pointer ;
+}
+.calendar-content  .canChoose {
+	背景颜色：＃f2f5f9 ;
+}
+.calendar-content  .canChoose ：hover {
+	颜色： #fff ;
+	背景颜色：＃09F ;
+}
+.calendar-content  div .today {
+	颜色：＃09F ;
+}
